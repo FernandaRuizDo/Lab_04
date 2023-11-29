@@ -25,7 +25,7 @@ def cliente():
     print("Recibido mensaje cifrado desde el servidor.")
 
     
-#S cierra la conexión del socket del cliente.
+#Se cierra la conexión del socket del cliente.
     client_socket.close()
 
 if __name__ == "__main__":
